@@ -1,1 +1,13 @@
-
+AMiede_Publications.bib
+CHANGES
+COPYING
+LISTOFFILES
+README
+ClassicThesis.tcp
+ClassicThesis.tps
+compbeauty.synctex.gz
+Examples/*
+FrontBackmatter/*
+Chapters/*
+gfx/*
+!Chapters/SotA.tex
