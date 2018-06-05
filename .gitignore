@@ -9,5 +9,6 @@ compbeauty.synctex.gz
 Examples/*
 FrontBackmatter/*
 Chapters/*
+proposal/*
 gfx/*
 !Chapters/SotA.tex
