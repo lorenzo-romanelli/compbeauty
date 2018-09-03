@@ -124,14 +124,14 @@
 %********************************************************************
 % Frontmatter
 %*******************************************************
-\include{FrontBackmatter/DirtyTitlepage}
-%\include{FrontBackmatter/Titlepage}
-%\include{FrontBackmatter/Titleback}
-%\cleardoublepage\include{FrontBackmatter/Dedication}
+%\include{FrontBackmatter/DirtyTitlepage}
+\include{FrontBackmatter/Titlepage}
+\include{FrontBackmatter/Titleback}
+\cleardoublepage\include{FrontBackmatter/Dedication}
 %\cleardoublepage\include{FrontBackmatter/Foreword}
-%\cleardoublepage\include{FrontBackmatter/Abstract}
+\cleardoublepage\include{FrontBackmatter/Acknowledgments}
+\cleardoublepage\include{FrontBackmatter/Abstract}
 %\cleardoublepage\include{FrontBackmatter/Publications}
-%\cleardoublepage\include{FrontBackmatter/Acknowledgments}
 \cleardoublepage\include{FrontBackmatter/Contents}
 %********************************************************************
 % Mainmatter
@@ -142,12 +142,16 @@
 %\setcounter{page}{90}
 % use \cleardoublepage here to avoid problems with pdfbookmark
 \cleardoublepage
+\include{Chapters/Introduction}
+\cleardoublepage
 %\part{Some Kind of Manual}\label{pt:manual}
 \include{Chapters/SotA}
 \cleardoublepage
 \include{Chapters/Methodology}
 \cleardoublepage
 \include{Chapters/Results}
+\cleardoublepage
+\include{Chapters/Conclusion}
 %\ctparttext{You can put some informational part preamble text here.
 %Illo principalmente su nos. Non message \emph{occidental} angloromanic
 %da. Debitas effortio simplificate sia se, auxiliar summarios da que,
