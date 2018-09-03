@@ -1,0 +1,24 @@
+\chapter{Conclusions}\label{ch:conclusion}
+\section{Summary}
+With this work, we aimed at outlining a new approach to the study of beauty from a computational perspective, as well as an introductory exploratory study on music reviews. We began by questioning whether is it possible to attribute objective, universal characteristics to musical aesthetic experiences. As we provided an overview of existing aesthetic theories and studies grounded in philosophy, cognitive neurosciences and computer science, it soon became evident how we are indeed facing a much bigger task. Our state of the art review, in fact, surfaced the problem of providing universally accepted definitions of the concept of beauty. What emerged was the need of addressing this problem from another perspective, a perspective grounded on aesthetic judgments addressed in real-life scenarios. Such scenarios constitute those situations where people explicitly talk about beauty by relating it to actual features of objects, which make possible their practical study.
+
+\section{Discussion}
+This project started as an attempt to build a computational model able to extract concrete musical features related to beauty from a corpus of music reviews. It was an ambitious goal, and in fact our analyses turned out to provide satisfying results only in part. Using word embeddings to model semantic spaces is a well-established procedure in \acsfont{NLP} applications; extracting information from such embeddings, instead, is not that easy.
+
+The main roadblock here has been the blurry interpretability of the semantic relationships learned by the model, due to a number of possible reasons. We tried to identify some shortcomings with our experiments, namely:
+\begin{itemize}
+\item lack of proper sources and methodologies to evaluate the model;
+\item lack of enough training data;
+\item overfitting.
+\end{itemize}
+
+These conclusions were drawn after applying the same methodology we adopted on our music reviews dataset to a much bigger, general purpose set of documents. In this scenario, we were able to spot much more meaningful relationships, with a hint at concrete musical features that should be further investigated. This gives us good reasons to believe that our proposed approach has potential, both conceptually and practically. We do hope that our research efforts can be further developed.
+
+\section{Future work}
+What has been presented here is only a starting point towards developing a comprehensive study of beauty, in music and not, grounded in language and aided by artificial intelligence. Of course our model can and has to be improved, evaluated and expanded. Once again, the Internet is the most valuable source for this task. Many well respected online music magazines exist, and scraping the required information from them can significally increase the size and the quality of the dataset. Also, more robust strategies for extracting explicit semantic relationships in word embeddings should be investigated.
+
+Good starting points for this task would be semantic or lexical networks such as WordNet\footnote{\url{https://wordnet.princeton.edu/}} or ConceptNet\footnote{\url{http://conceptnet.io/}}. These are graphs whose nodes represent terms or phrases in natural language, while edges connect them using explicit semantic relationships (like \emph{is-a}, \emph{similar-to}, \emph{part-of}, \emph{synonym}, \emph{antonym}, and so on). By exploiting such graphs, we could for example develop a semantic-based clustering strategy.
+
+If the proposed (or similar) methodologies prove to be successful, many different studies could be carried on. Some ideas include a comparison of the semantic changes of aesthetic terms in music across time periods, different cultures, or music genres.
+
+The most interesting application these studies can find is probably to use them in synergy with research coming from other fields. One could think about developing systems which make use of prescriptive lists of features extracted from experts' opinions about beauty and apply them to actual pieces of music. By doing so we could for example provide a concrete support to the work of musicologists and musicians, as well as further pushing forward our knowledge about judgments of beauty in all of its many facets: subjective or objective, conscious or subconscious, universal or particular.
